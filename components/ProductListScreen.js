@@ -3,14 +3,14 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet, Image } from 'react
 
 const initialBikes = [
   { id: '1', name: 'Pinarello', price: '1800', img: require("../assets/1.png") },
-  // Giam so luong con 2 de thay duoc phan Add
-  // { id: '2', name: 'Pina Mountain', price: '1700', img: require("../assets/2.png") },
-  // { id: '3', name: 'Pina Bike', price: '1500', img: require("../assets/3.png") },
-  // { id: '4', name: 'Pinarello', price: '1900', img: require("../assets/4.png") },
-  // { id: '5', name: 'Pinarello', price: '2700', img: require("../assets/5.png") },
-  // { id: '6', name: 'Pinarello', price: '1350', img: require("../assets/6.png") },
-  // { id: '7', name: 'Pinarello', price: '1850', img: require("../assets/1.png") },
-  // { id: '8', name: 'Pina Mountain', price: '1950', img: require("../assets/2.png") },
+  // Giam so luong con 1 or 2 de thay duoc phan Add
+  { id: '2', name: 'Pina Mountain', price: '1700', img: require("../assets/2.png") },
+  { id: '3', name: 'Pina Bike', price: '1500', img: require("../assets/3.png") },
+  { id: '4', name: 'Pinarello', price: '1900', img: require("../assets/4.png") },
+  { id: '5', name: 'Pinarello', price: '2700', img: require("../assets/5.png") },
+  { id: '6', name: 'Pinarello', price: '1350', img: require("../assets/6.png") },
+  { id: '7', name: 'Pinarello', price: '1850', img: require("../assets/1.png") },
+  { id: '8', name: 'Pina Mountain', price: '1950', img: require("../assets/2.png") },
 ];
 
 export default function ProductListScreen({route, navigation }) {
